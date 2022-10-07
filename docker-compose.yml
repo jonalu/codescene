@@ -6,6 +6,8 @@ services:
       - 3003:3003
     volumes:
       - codescene:/codescene
+    environment:
+      - CODESCENE_TIMEZONE=Europe/Oslo
 
 volumes:
   codescene:
