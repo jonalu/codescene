@@ -1,0 +1,11 @@
+version: '3'
+services:
+  codescene:
+    image: empear/codescene:latest
+    ports:
+      - 3003:3003
+    volumes:
+      - codescene:/codescene
+
+volumes:
+  codescene:
