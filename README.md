@@ -1,6 +1,6 @@
 ## CodeScene
 
-This is my private CodeScene setup
+Setup for running CodeScene using docker-compose
 
 ### Start CodeScene instance
 
